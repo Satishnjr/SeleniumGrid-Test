@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="31051" started-at="2018-04-18T17:36:13Z" finished-at="2018-04-18T17:36:44Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest_WIN10" duration-ms="24426" started-at="2018-04-18T17:36:13Z" finished-at="2018-04-18T17:36:37Z">
+      <class name="GridParallelTests.GridParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GridParallelTests.GridParallelTest@1aeed2f]" name="setup" is-config="true" duration-ms="24027" started-at="2018-04-18T19:36:13Z" finished-at="2018-04-18T19:36:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4546]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:GridParallelTests.GridParallelTest@1aeed2f]" name="facebookLogin" duration-ms="26" started-at="2018-04-18T19:36:37Z" finished-at="2018-04-18T19:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridParallelTests.GridParallelTest@1aeed2f]" name="tearDown" is-config="true" duration-ms="342" started-at="2018-04-18T19:36:37Z" finished-at="2018-04-18T19:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </test> <!-- ChromeTest_WIN10 -->
+    <test name="ChromeTest_WIN8_1" duration-ms="26915" started-at="2018-04-18T17:36:13Z" finished-at="2018-04-18T17:36:39Z">
+      <class name="GridParallelTests.GridParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GridParallelTests.GridParallelTest@19f99ea]" name="setup" is-config="true" duration-ms="26650" started-at="2018-04-18T19:36:13Z" finished-at="2018-04-18T19:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4546]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN8_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:GridParallelTests.GridParallelTest@19f99ea]" name="facebookLogin" duration-ms="10" started-at="2018-04-18T19:36:39Z" finished-at="2018-04-18T19:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridParallelTests.GridParallelTest@19f99ea]" name="tearDown" is-config="true" duration-ms="249" started-at="2018-04-18T19:36:39Z" finished-at="2018-04-18T19:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </test> <!-- ChromeTest_WIN8_1 -->
+    <test name="IETest_WIN10" duration-ms="4946" started-at="2018-04-18T17:36:37Z" finished-at="2018-04-18T17:36:42Z">
+      <class name="GridParallelTests.GridParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GridParallelTests.GridParallelTest@1622fdf]" name="setup" is-config="true" duration-ms="4712" started-at="2018-04-18T19:36:37Z" finished-at="2018-04-18T19:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4548]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:GridParallelTests.GridParallelTest@1622fdf]" name="facebookLogin" duration-ms="116" started-at="2018-04-18T19:36:42Z" finished-at="2018-04-18T19:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridParallelTests.GridParallelTest@1622fdf]" name="tearDown" is-config="true" duration-ms="116" started-at="2018-04-18T19:36:42Z" finished-at="2018-04-18T19:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </test> <!-- IETest_WIN10 -->
+    <test name="IETest_WIN8_1" duration-ms="3058" started-at="2018-04-18T17:36:39Z" finished-at="2018-04-18T17:36:43Z">
+      <class name="GridParallelTests.GridParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GridParallelTests.GridParallelTest@3f4d3d]" name="setup" is-config="true" duration-ms="2990" started-at="2018-04-18T19:36:39Z" finished-at="2018-04-18T19:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4548]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN8_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:GridParallelTests.GridParallelTest@3f4d3d]" name="facebookLogin" duration-ms="48" started-at="2018-04-18T19:36:42Z" finished-at="2018-04-18T19:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridParallelTests.GridParallelTest@3f4d3d]" name="tearDown" is-config="true" duration-ms="19" started-at="2018-04-18T19:36:43Z" finished-at="2018-04-18T19:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </test> <!-- IETest_WIN8_1 -->
+    <test name="FireFoxTest_WIN10" duration-ms="30982" started-at="2018-04-18T17:36:13Z" finished-at="2018-04-18T17:36:44Z">
+      <class name="GridParallelTests.GridParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GridParallelTests.GridParallelTest@1e88b3c]" name="setup" is-config="true" duration-ms="30308" started-at="2018-04-18T19:36:13Z" finished-at="2018-04-18T19:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4547]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:GridParallelTests.GridParallelTest@1e88b3c]" name="facebookLogin" duration-ms="9" started-at="2018-04-18T19:36:43Z" finished-at="2018-04-18T19:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridParallelTests.GridParallelTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="660" started-at="2018-04-18T19:36:43Z" finished-at="2018-04-18T19:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </test> <!-- FireFoxTest_WIN10 -->
+    <test name="FireFoxTest_WIN8_1" duration-ms="31051" started-at="2018-04-18T17:36:13Z" finished-at="2018-04-18T17:36:44Z">
+      <class name="GridParallelTests.GridParallelTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:GridParallelTests.GridParallelTest@4ed9f0]" name="setup" is-config="true" duration-ms="30454" started-at="2018-04-18T19:36:13Z" finished-at="2018-04-18T19:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4547]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN8_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:GridParallelTests.GridParallelTest@4ed9f0]" name="facebookLogin" duration-ms="11" started-at="2018-04-18T19:36:43Z" finished-at="2018-04-18T19:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GridParallelTests.GridParallelTest@4ed9f0]" name="tearDown" is-config="true" duration-ms="581" started-at="2018-04-18T19:36:43Z" finished-at="2018-04-18T19:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </test> <!-- FireFoxTest_WIN8_1 -->
+  </suite> <!-- suite -->
+</testng-results>

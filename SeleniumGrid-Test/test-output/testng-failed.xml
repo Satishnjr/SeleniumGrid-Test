@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [suite]" parallel="tests">
+  <test name="FireFoxTest_WIN8_1(failed)" parallel="tests">
+    <parameter name="portNO" value="4547"/>
+    <parameter name="appURL" value="https://www.facebook.com"/>
+    <parameter name="platform" value="WIN8_1"/>
+    <classes>
+      <class name="GridParallelTests.GridParallelTest">
+        <methods>
+          <include name="facebookLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </classes>
+  </test> <!-- FireFoxTest_WIN8_1(failed) -->
+  <test name="FireFoxTest_WIN10(failed)" parallel="tests">
+    <parameter name="portNO" value="4547"/>
+    <parameter name="appURL" value="https://www.facebook.com"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="GridParallelTests.GridParallelTest">
+        <methods>
+          <include name="facebookLogin"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- GridParallelTests.GridParallelTest -->
+    </classes>
+  </test> <!-- FireFoxTest_WIN10(failed) -->
+</suite> <!-- Failed suite [suite] -->

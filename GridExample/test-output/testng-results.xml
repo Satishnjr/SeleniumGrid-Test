@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9471" started-at="2018-02-23T14:49:40Z" finished-at="2018-02-23T14:49:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9471" started-at="2018-02-23T14:49:40Z" finished-at="2018-02-23T14:49:50Z">
+      <class name="seleniumGrid.GridChrome">
+        <test-method status="PASS" signature="test()[pri:0, instance:seleniumGrid.GridChrome@7225790e]" name="test" duration-ms="9455" started-at="2018-02-23T15:49:40Z" finished-at="2018-02-23T15:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- seleniumGrid.GridChrome -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

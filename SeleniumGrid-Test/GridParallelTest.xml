@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" parallel="tests" thread-count="4">
+	<test name="ChromeTest_WIN10">
+	    <parameter name="platform" value="WIN10" />
+		<parameter name="portNO" value="4546"></parameter>
+		<parameter name="appURL" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="GridParallelTests.GridParallelTest" />
+		</classes>
+	</test>
+
+	<test name="ChromeTest_WIN8_1">
+	    <parameter name="platform" value="WIN8_1" />
+		<parameter name="portNO" value="4546"></parameter>
+		<parameter name="appURL" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="GridParallelTests.GridParallelTest" />
+		</classes>
+	</test>
+
+
+
+	<test name="FireFoxTest_WIN10">
+	    <parameter name="platform" value="WIN10" />
+		<parameter name="portNO" value="4547"></parameter>
+		<parameter name="appURL" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="GridParallelTests.GridParallelTest" />
+		</classes>
+	</test>
+	<test name="FireFoxTest_WIN8_1">
+	
+	    <parameter name="platform" value="WIN8_1" />
+		<parameter name="portNO" value="4547"></parameter>
+		<parameter name="appURL" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="GridParallelTests.GridParallelTest" />
+		</classes>
+	</test>
+
+	<test name="IETest_WIN10">
+	    <parameter name="platform" value="WIN10" />
+		<parameter name="portNO" value="4548"></parameter>
+		<parameter name="appURL" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="GridParallelTests.GridParallelTest" />
+		</classes>
+	</test>
+	<test name="IETest_WIN8_1">
+	    <parameter name="platform" value="WIN8_1" />
+		<parameter name="portNO" value="4548"></parameter>
+		<parameter name="appURL" value="https://www.facebook.com"></parameter>
+		<classes>
+			<class name="GridParallelTests.GridParallelTest" />
+		</classes>
+	</test>
+</suite> 
